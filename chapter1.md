@@ -5,14 +5,15 @@ attachments :
   slides_link : https://s3.amazonaws.com/assets.datacamp.com/course/teach/slides_example.pdf
 
 --- type:VideoExercise lang:r xp:50 skills:1
-## Analyze movie ratings
+## Анализ рейтинга фильмов
 
 *** =video_link
 //player.vimeo.com/video/154783078
 
 --- type:MultipleChoiceExercise lang:r xp:50 skills:1
-## A really bad movie
+## Реально плохое кино
 
+Посмотрите на график, появившийся в окошке справа. Фильмы какого типа имеют худший рейтинг?
 Have a look at the plot that showed up in the viewer to the right. Which type of movie has the worst rating assigned to it?
 
 *** =instructions
@@ -22,6 +23,7 @@ Have a look at the plot that showed up in the viewer to the right. Which type of
 - Comedy
 
 *** =hint
+Посмотрите на график. Какой цвет соответствует самому низкому рейтингу?
 Have a look at the plot. Which color does the point with the lowest rating have?
 
 *** =pre_exercise_code
@@ -55,7 +57,7 @@ test_mc(correct = 2, feedback_msgs = c(msg_bad, msg_success, msg_bad, msg_bad))
 ```
 
 --- type:NormalExercise lang:r xp:100 skills:1
-## More movies
+## Еще несколько фильмов
 
 In the previous exercise, you saw a dataset about movies. In this exercise, we'll have a look at yet another dataset about movies!
 
