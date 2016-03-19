@@ -60,14 +60,16 @@ test_mc(correct = 2, feedback_msgs = c(msg_bad, msg_success, msg_bad, msg_bad))
 --- type:NormalExercise lang:r xp:100 skills:1
 ## Еще несколько фильмов
 
+В предыдущем упражнении вы видели набор данных о фильмах. В этом упражнении мы посмотрим еще один набор данных о фильмах.
 In the previous exercise, you saw a dataset about movies. In this exercise, we'll have a look at yet another dataset about movies!
 
+Набор данных о фильмах `movie_selection` доступен в рабочем пространстве.
 A dataset with a selection of movies, `movie_selection`, is available in the workspace.
 
 *** =instructions
-- Check out the structure of `movie_selection`.
-- Select movies with a rating of 5 or higher. Assign the result to `good_movies`.
-- Use `plot()` to  plot `good_movies$Run` on the x-axis, `good_movies$Rating` on the y-axis and set `col` to `good_movies$Genre`.
+- Check out the structure of `movie_selection`. Просмотрите структуру фрейма `movie_selection`.
+- Select movies with a rating of 5 or higher. Assign the result to `good_movies`. Выберите фильмы с рейтингом от 5 и выше, резальтат сохраните во фрейме `good_movies`.
+- Use `plot()` to  plot `good_movies$Run` on the x-axis, `good_movies$Rating` on the y-axis and set `col` to `good_movies$Genre`. Используйте функцию `plot()` для построения графика с `good_movies$Run` по горизонтальной оси и `good_movies$Rating` по вертикальной, передайте параметру  `col` значение `good_movies$Genre`.
 
 *** =hint
 - Use `str()` for the first instruction.
