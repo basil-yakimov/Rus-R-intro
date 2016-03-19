@@ -17,13 +17,13 @@ attachments :
 Have a look at the plot that showed up in the viewer to the right. Which type of movie has the worst rating assigned to it?
 
 *** =instructions
-- Adventure
-- Action
-- Animation
-- Comedy
+- Приключения
+- Экшен
+- Мультфильм
+- Комедия
 
 *** =hint
-Посмотрите на график. Какой цвет соответствует самому низкому рейтингу?
+Посмотрите на график. Какого цвета точки с  самым низким рейтингом?
 Have a look at the plot. Which color does the point with the lowest rating have?
 
 *** =pre_exercise_code
@@ -47,8 +47,8 @@ ggplot(movies, aes(x = runtime, y = rating, col = genre)) + geom_point()
 # evaluate the student's response. All functions used here are defined in the 
 # testwhat R package
 
-msg_bad <- "That is not correct!"
-msg_success <- "Exactly! There seems to be a very bad action movie in the dataset."
+msg_bad <- "Неверный ответ!"
+msg_success <- "Именно! Похоже, в этом наборе действительно много плохих экшенов."
 
 # Use test_mc() to grade multiple choice exercises. 
 # Pass the correct option (Action, option 2 in the instructions) to correct.
