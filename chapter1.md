@@ -47,7 +47,7 @@ ggplot(movies, aes(x = runtime, y = rating, col = genre)) + geom_point()
 # evaluate the student's response. All functions used here are defined in the 
 # testwhat R package
 
-msg_bad <- "Wrong"
+msg_bad <- "Неверно!"
 #msg_success <- "Именно! Похоже, в этом наборе действительно много плохих экшенов."
 msg_success <- "Exactly"
 
