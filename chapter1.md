@@ -242,3 +242,47 @@ test_error()
 
 success_msg("Отлично!")
 ```
+
+
+
+--- type:NormalExercise lang:r xp:100 skills:1
+## Упражнение 3
+
+Oкруглите d до третьего знака после запятой.
+
+*** =instructions
+- Oкруглите d до третьего знака после запятой, результат присвойте той же переменной.
+
+*** =hint
+- Используйте функцию `round()` и аргумент `dec`.
+
+*** =pre_exercise_code
+```{r}
+a <- 3.01
+b <- 3.23
+d <- (a+b)^2
+```
+
+*** =sample_code
+```{r}
+# Округляем d
+
+```
+
+*** =solution
+```{r}
+# Округляем d
+d <- round(d, dec = 3)
+```
+
+*** =sct
+```{r}
+# Test the object, good_movies
+# Notice that we didn't define any feedback here, this will cause automatically 
+# generated feedback to be given to the student in case of an incorrect submission
+test_object("d")
+
+test_error()
+
+success_msg("Отлично!")
+```
