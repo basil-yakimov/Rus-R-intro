@@ -280,6 +280,7 @@ d <- round(d, dec = 3)
 # Test the object, good_movies
 # Notice that we didn't define any feedback here, this will cause automatically 
 # generated feedback to be given to the student in case of an incorrect submission
+test_function("round", args = "x")
 test_function("round", args = "dec")
 
 test_object("d")
