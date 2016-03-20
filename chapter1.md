@@ -200,3 +200,45 @@ test_error()
 
 success_msg("Отлично!")
 ```
+
+
+--- type:NormalExercise lang:r xp:100 skills:1
+## Упражнение 2
+
+Вычислите квадрат суммы значений `a` и `b` и присвойте результат переменной `d`.
+
+*** =instructions
+- Создайте новую переменную `d` и присвойте ей квадрат суммы значений `a` и `b`.
+
+*** =hint
+- Используйте оператор присваивания `<-`. 
+
+*** =pre_exercise_code
+```{r}
+a <- 3.01
+b <- 3.23
+```
+
+*** =sample_code
+```{r}
+# Создаем переменную d
+
+```
+
+*** =solution
+```{r}
+# Создаем переменную d
+d <- (a+b)^2
+```
+
+*** =sct
+```{r}
+# Test the object, good_movies
+# Notice that we didn't define any feedback here, this will cause automatically 
+# generated feedback to be given to the student in case of an incorrect submission
+test_object("d")
+
+test_error()
+
+success_msg("Отлично!")
+```
