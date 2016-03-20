@@ -152,3 +152,51 @@ test_error()
 # Final message the student will see upon completing the exercise
 success_msg("Good work!")
 ```
+
+--- type:NormalExercise lang:r xp:100 skills:1
+## Упражнение 1
+
+Создайте переменную `a` и присвойте ей значение 3.01. Создайте переменную `b` и присвойте ей значение 3.23.
+
+*** =instructions
+- Создайте новую переменную `a` и присвойте ей значение 3.01.
+- Создайте новую переменную `b` и присвойте ей значение 3.23.
+
+*** =hint
+- Используйте оператор присваивания `<-`. 
+
+*** =pre_exercise_code
+```{r}
+a <- 3.01
+b <- 3.23
+```
+
+*** =sample_code
+```{r}
+# Создаем переменную a
+
+# Создаем переменную b
+
+```
+
+*** =solution
+```{r}
+# Создаем переменную a
+a <- 3.01
+
+# Создаем переменную b
+b <- 3.23
+```
+
+*** =sct
+```{r}
+# Test the object, good_movies
+# Notice that we didn't define any feedback here, this will cause automatically 
+# generated feedback to be given to the student in case of an incorrect submission
+test_object("a")
+test_object("b")
+
+test_error()
+
+success_msg("Отлично!")
+```
